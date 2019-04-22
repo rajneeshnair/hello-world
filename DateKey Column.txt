@@ -1,0 +1,1 @@
+Text.From(Date.Year([Date])) & Text.End("00" & Text.From(Date.Month([Date])), 2) & Text.End("00" & Text.From(Date.Day([Date])), 2)
